@@ -1,4 +1,4 @@
 # SWI
 Softwerove inzinierstvo
 
-skuska commitu
+skuska commitu2

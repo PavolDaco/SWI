@@ -1,0 +1,84 @@
+ul {
+    padding: 10px;
+}
+.done {
+    text-decoration: line-through;
+}
+
+#wrap {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	position: absolute;
+}
+
+  body {
+    padding: 2em;
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    background-color: #F0F8FF; 
+  }
+
+  #name {
+    width: 300px;
+    margin-top: 25px;
+	  padding: 5px;
+	  font-size: 1.1em;
+	  border: 2px solid #ccc;
+  }
+
+  #todolist {
+    width: 530px;
+    margin: 10px;
+  }
+
+  #todolist li {
+    border-radius: 2px;
+    list-style: none;
+    background: #eee;
+    padding: 5px 10px;
+    margin-bottom: 7px;
+    position: relative;
+    height: 45px;
+  }
+  #todolist li:nth-child(2n){
+    background: #ccc;
+  }
+
+  /*#todolist li:hover:after,
+  #todolist li.done:after {*/
+ /*
+ .done-btn:hover:after,
+ .done-btn.done:after {
+    content: '✔';
+    color: #060;
+    position: absolute;
+    right: 5px;    
+  }
+
+ /* #todolist li.done:hover:after {*/
+ .cancel-btn:hover:after {
+    content: 'x';
+    font-weight: bold;
+    color: #c00;
+    position: absolute;
+    right: 5px; 
+
+    font-size: 1.1em;
+  }
+  .cancel-btn {
+  	float: right;
+  	margin-right: 10px;
+  	padding-bottom: 10px;
+  }
+
+   .done-btn {
+   	display: none;
+   }
+
+   #add-btn {
+   	 margin-bottom: 3px;
+   }
